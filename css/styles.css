@@ -1,0 +1,28 @@
+body {
+  background-color: #bbe1fa;
+  margin: 0;
+  position: relative;
+}
+.page1 {
+  text-align: center;
+  margin-top: 100px;
+  color: #424874;
+  font-family: "Sacramento", cursive;
+  font-size: 250%;
+}
+.cloud {
+  width: 60%;
+  margin-left: 290px;
+  margin-top: -270px;
+}
+.hills {
+  width: 700px;
+  height: 450px;
+}
+.namemain {
+  height: 30px;
+}
+.ptag {
+  padding-top: px;
+  padding-left: 90px;
+}
