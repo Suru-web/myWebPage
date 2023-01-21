@@ -26,3 +26,44 @@ body {
   padding-top: 25px;
   padding-left: 90px;
 }
+.page2 {
+  background-color: #f4eeff;
+  font-family: "Montserrat", sans-serif;
+  color: #424874;
+  padding-top: 0px;
+  /* padding-bottom: 200px; */
+}
+.sunrise {
+  width: 150px;
+  display: block;
+  margin-left: 100px;
+  padding-bottom: 50px;
+}
+.cloud {
+  width: 100px;
+}
+.forest {
+  height: 250px;
+  width: 400px;
+  padding: 40px;
+  padding-top: 20px;
+  /* display: block; */
+}
+.myimage {
+  width: 200px;
+  border-radius: 100%;
+  margin-left: 450px;
+  padding-top: 25px;
+}
+table {
+  max-width: 1200px;
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 25px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.intro1 {
+  height: 40px;
+}
