@@ -5,26 +5,21 @@ body {
 }
 .page1 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 5%;
   color: #424874;
   font-family: "Sacramento", cursive;
   font-size: 250%;
 }
 .cloud {
   width: 60%;
-  margin-left: 290px;
-  margin-top: -270px;
+  margin-left: 10%;
 }
 .hills {
-  width: 700px;
-  height: 430px;
+  width: 50%;
+  height: 30rem;
 }
 .namemain {
-  height: 30px;
-}
-.ptag {
-  padding-top: 25px;
-  padding-left: 90px;
+  height: 3rem;
 }
 .page2 {
   background-color: #f4eeff;
@@ -34,36 +29,37 @@ body {
   /* padding-bottom: 200px; */
 }
 .sunrise {
-  width: 150px;
+  width: 11%;
   display: block;
-  margin-left: 100px;
-  padding-bottom: 50px;
+  margin-left: 7%;
+  padding-bottom: 3%;
 }
 .cloud {
-  width: 100px;
+  padding-left: 5%;
+  width: 11%;
 }
 .forest {
-  height: 250px;
-  width: 400px;
-  padding: 40px;
-  padding-top: 20px;
+  height: 15.625rem;
+  width: 25rem;
+  padding: 2.6677rem;
+  padding-top: 1.25rem;
   /* display: block; */
 }
 .myimage {
-  width: 200px;
+  width: 12.25rem;
   border-radius: 100%;
-  margin-left: 450px;
-  padding-top: 25px;
+  margin-left: 28.125rem;
+  padding-top: 1.5625rem;
 }
 table {
-  max-width: 1200px;
+  max-width: 75rem;
   display: inline-block;
-  padding-top: 40px;
-  padding-left: 25px;
+  padding-top: 2.5rem;
+  padding-left: 1.5625rem;
   vertical-align: top;
   text-align: center;
 }
 
 .intro1 {
-  height: 40px;
+  height: 2.5rem;
 }
