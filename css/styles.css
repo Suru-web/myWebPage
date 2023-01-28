@@ -69,14 +69,6 @@ table {
 .intro1 {
   height: 2.5rem;
 }
-nav {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background-color: #bbe1fa;
-  padding: 0.6rem;
-  padding-left: 80rem;
-}
 
 /*-------------------- PAGE 3 CSS ------------------------- */
 
@@ -84,7 +76,6 @@ nav {
   padding-top: 5rem;
   background-color: #f7fbfc;
   font-family: "Montserrat", sans-serif;
-  /* justify-content: center; */
 }
 #page3 h1 {
   margin: 0;
@@ -157,12 +148,88 @@ nav {
   padding-right: 35rem;
   color: #00a8cc;
 }
-.edu-li {
-  color: #f303841;
-}
 .edu-ul {
   width: 100%;
   padding-left: 23rem;
   font-size: 1.5rem;
   line-height: 4rem;
+  padding-bottom: 5rem;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #bbe1fa;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+.stu-intro {
+  width: 2rem;
+  padding-right: 62rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.nav1 {
+  text-align: center;
+  padding-right: 1rem;
+  color: #424874;
+  text-decoration: solid;
+  font-family: "Raleway", sans-serif;
+}
+.div-cont {
+  /* padding-right: 8rem; */
+  padding-top: 1rem;
+  text-align: center;
+}
+
+/* ------------------ PAGE 4 --------------------  */
+
+#page4 {
+  background-color: #a9f1df;
+  margin-top: -1.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-img {
+  width: 3rem;
+  padding-top: 1.1rem;
+  padding-left: 40rem;
+  display: inline-block;
+}
+.contact-txt {
+  float: right;
+  padding-left: 0rem;
+  display: inline-block;
+  padding-right: 38rem;
+}
+.contact img {
+  width: 2rem;
+  padding-right: 2rem;
+}
+.contact {
+  margin-top: 7rem;
+  padding-left: 40rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.t-txt {
+  text-decoration: none;
+  color: black;
+}
+.f-txt {
+  text-decoration: none;
+  color: black;
+}
+.i-txt {
+  text-decoration: none;
+  color: black;
+}
+.cont-list {
+  list-style-type: none;
+  line-height: 5rem;
+}
+.l-txt {
+  color: black;
+  text-decoration: none;
 }
