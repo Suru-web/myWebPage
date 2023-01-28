@@ -1,14 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 body {
-  background-color: #bbe1fa;
   margin: 0;
-  position: relative;
+  margin-top: -4.8rem;
+  /* position: relative; */
 }
-.page1 {
+
+/* PAGE 1 CSS */
+
+#page1 {
+  background-color: #bbe1fa;
   text-align: center;
   margin-top: 5%;
+  padding-top: 2rem;
   color: #424874;
   font-family: "Sacramento", cursive;
   font-size: 250%;
+  transition: background 1s ease;
 }
 .cloud {
   width: 60%;
@@ -19,9 +26,13 @@ body {
   height: 30rem;
 }
 .namemain {
-  height: 3rem;
+  font-size: 4.5rem;
+  height: 3.3rem;
 }
-.page2 {
+
+/* PAGE 2 CSS */
+
+#page2 {
   background-color: #f4eeff;
   font-family: "Montserrat", sans-serif;
   color: #424874;
@@ -34,16 +45,11 @@ body {
   margin-left: 7%;
   padding-bottom: 3%;
 }
-.cloud {
-  padding-left: 5%;
-  width: 11%;
-}
 .forest {
-  height: 15.625rem;
-  width: 25rem;
-  padding: 2.6677rem;
-  padding-top: 1.25rem;
-  /* display: block; */
+  height: 15rem;
+  width: 27.1rem;
+  padding: 2rem;
+  padding-top: 6rem;
 }
 .myimage {
   width: 12.25rem;
@@ -62,4 +68,101 @@ table {
 
 .intro1 {
   height: 2.5rem;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #bbe1fa;
+  padding: 0.6rem;
+  padding-left: 80rem;
+}
+
+/*-------------------- PAGE 3 CSS ------------------------- */
+
+#page3 {
+  padding-top: 5rem;
+  background-color: #f7fbfc;
+  font-family: "Montserrat", sans-serif;
+  /* justify-content: center; */
+}
+#page3 h1 {
+  margin: 0;
+}
+.skills-img {
+  margin-top: 0;
+  padding-left: 41rem;
+  padding-right: 3rem;
+  width: 6rem;
+  float: left;
+  /* display: inline-block; */
+}
+.skills-text {
+  padding-top: 1.9rem;
+  padding-left: 5rem;
+  color: #ff8b13;
+}
+.coding-img {
+  width: 12rem;
+  padding-left: 20rem;
+  padding-top: 4rem;
+  padding-right: 8rem;
+}
+.skills-table {
+  padding-top: 7rem;
+  text-align: left;
+  line-height: -20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 10rem;
+}
+.hob-text {
+  float: right;
+  padding-top: 1.5rem;
+  padding-right: 38rem;
+  color: #f273e6;
+}
+.hobbies-img {
+  width: 6rem;
+  display: block-inline;
+  padding-left: 39rem;
+}
+.gaming-img {
+  width: 12rem;
+}
+
+.hobbies-table {
+  padding-left: 17rem;
+  text-align: left;
+  max-width: 100%;
+  line-height: -4rem;
+  margin: 5rem;
+  display: block;
+}
+.hobbies-table td {
+  font-size: 1.5rem;
+  padding-right: 3rem;
+}
+
+.edu-img {
+  margin: 3rem auto auto 37rem;
+  width: 10rem;
+  display: inline-block;
+}
+.edu-txt {
+  float: right;
+  padding-top: 6rem;
+  padding-right: 35rem;
+  color: #00a8cc;
+}
+.edu-li {
+  color: #f303841;
+}
+.edu-ul {
+  width: 100%;
+  padding-left: 23rem;
+  font-size: 1.5rem;
+  line-height: 4rem;
 }
